@@ -12,7 +12,7 @@ class UserSeeder extends Seeder
         $data = [
             'username' => 'chaidar',
             'email'    => 'chaidar@email.com',
-            'password'    => password_hash('tes123', PASSWORD_DEFAULT),
+            'password'    => password_hash('', PASSWORD_DEFAULT),
             'created_at' => Time::now(),
             'updated_at' => Time::now(),
         ];
